@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Studio Ghibli - Web Safety</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="ghibli.css">
+<link rel="icon" href="favicon.ico" type="image/ico">
+<script src="modernizr.custom.05819.js"></script>
+<script src="ghibli.js"></script>
+</head>
+<body>
+   <header>
+      <h1><img src="totoro5.png" alt="Totoro with umbrella">Studio Ghibli</h1>
+   </header>
+   <nav>
+      <ul>
+         <li><a href="index.html">Home</a></li>
+         <li><a href="films.html">Films</a></li>
+         <li><a href="safety.html">Web Safety</a></li>
+         <li><a href="days.html">Days</a></li>
+      </ul>
+   </nav>
+   <h2>Web Safety</h2>
+   <div id="web">
+   <p>The world wide web is a great place!  It has connected people across the globe, allowed for online stores that will deliver
+   items straight to your door, it enables news and knowledge to be shared instantaneously.  However, it can also be a dangerous
+   place.  There are many who use the web with ill intent, hoping to catch users unaware and cause them harm - be it by damaging
+   their computer, gaining access to their files, or learning their personal information and using it for their own gain.  Much of
+   this can be prevented with some basic knowledge of what to look for.</p>
+   <p>Don't believe me?  Let me tell you just a bit about you:</p>
+   <p>Web Browser: <script>document.write(navigator.appName)</script><br>
+   Version: <script>document.write(navigator.appVersion)</script><br>
+   Operating System: <script>document.write(navigator.platform)</script><br>
+   Network Status: <script>document.write(navigator.onLine)</script><br>
+   Screen Width: <script>document.write(screen.width)</script>px<br>
+   Screen Height: <script>document.write(screen.height)</script>px<br>
+   <script>navigator.geolocation.getCurrentPosition(getLoc, noLoc);</script>
+   <span id="lat"></span><br>
+   <span id="long"></span><br>
+   <span id="alt"></span><br>
+   This could be your location if I wanted to pay Google:<br>
+   <img src="map.png" alt="a map" height="200" width="200"></p>
+   <p>Scary, right?  And that's just the tip of the iceberg.  But don't worry!  There are many people
+   who dedicate their time to educating the masses about how to safely use the web.  Here are
+   just a few examples:</p>
+   <ul>
+   <li><a href="https://browserleaks.com/">Browser Leaks</a> - This website gives some great examples of the kinds of information that
+   can be transmitted by you browser without your knowledge or consent.</li>
+   <li><a href="https://spreadprivacy.com/">DuckDuckGo Blog</a> - This is a blog by the company DuckDuckGo, a web browser that promises
+   not to track your web browsing.  They have many articles with privacy-related laws and tips
+   for browsing the web in safety.  They also offer plugins for Mozilla Firefox.</li>
+   <li><a href="https://protonmail.com/security-details">ProtonMail</a> - This web page explains how the company ProtonMail encrypts its user's email
+   messages so that they cannot be intercepted and read by anyone except for the intended
+   recipient.  That includes the company itself - Not even they have access to the contents of the
+   messages that they encrypt.</li>
+   <li><a href="https://www.mozilla.org/en-US/">Mozilla</a> - This is the home page for Mozilla.  They are best known as the company behind the web
+   browser Firefox and the email client Thunderbird.  They take privacy on the web very seriously, and
+   offer a plethora of resources to become more knowledgeable about your privacy on the web.  There
+   are also many plugins available for their web browser designed to increase your safety while browsing.</li>
+   </ul>
+   </div>
+   <br><br>
+   <footer>Copyright &copy; 2019 <a href="mailto:amerriman12@ivytech.edu">Ariel Merriman</a></footer>
+</body>
+</html>

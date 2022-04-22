@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Studio Ghibli - Films</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="ghibli.css">
+<link rel="icon" href="favicon.ico" type="image/ico">
+</head>
+<body onload="resetFilms()">
+   <header>
+      <h1><img src="totoro5.png" alt="Totoro with umbrella">Studio Ghibli</h1>
+   </header>
+   <nav>
+      <ul>
+         <li><a href="index.html">Home</a></li>
+         <li><a href="films.html">Films</a></li>
+         <li><a href="safety.html">Web Safety</a></li>
+         <li><a href="days.html">Days</a></li>
+      </ul>
+   </nav>
+   <aside>
+         <h3>How many Studio Ghibli movies have you seen?</h3>
+         <p><input type="text" id="numfilms" value="0" onchange="calcFilms()"> out of 21</p>
+         <p id="pctseen"></p>
+   </aside>
+   <h2>Films</h2>
+   <table id="filmTable">
+      <tr>
+         <th id="year">Release Year</th>
+         <th id="title">Title</th>
+      </tr>
+      <tr>
+         <td headers="year">1986</td>
+         <td headers="title">Castle in the Sky</td>
+      </tr>
+      <tr>
+         <td headers="year">1988</td>
+         <td headers="title">Grave of the Fireflies</td>
+      </tr>
+      <tr>
+         <td headers="year">1988</td>
+         <td headers="title">My Neighbor Totoro</td>
+      </tr>
+      <tr>
+         <td headers="year">1989</td>
+         <td headers="title">Kiki's Delivery Service</td>
+      </tr>
+      <tr>
+         <td headers="year">1991</td>
+         <td headers="title">Only Yesterday</td>
+      </tr>
+      <tr>
+         <td headers="year">1992</td>
+         <td headers="title">Porco Rosso</td>
+      </tr>
+      <tr>
+         <td headers="year">1993</td>
+         <td headers="title">Ocean Waves</td>
+      </tr>
+      <tr>
+         <td headers="year">1994</td>
+         <td headers="title">Pom Poko</td>
+      </tr>
+      <tr>
+         <td headers="year">1995</td>
+         <td headers="title">Whisper of the Heart</td>
+      </tr>
+      <tr>
+         <td headers="year">1997</td>
+         <td headers="title">Princess Mononoke</td>
+      </tr>
+      <tr>
+         <td headers="year">1999</td>
+         <td headers="title">My Neighbors the Yamadas</td>
+      </tr>
+      <tr>
+         <td headers="year">2001</td>
+         <td headers="title">Spirited Away</td>
+      </tr>
+      <tr>
+         <td headers="year">2002</td>
+         <td headers="title">The Cat Returns</td>
+      </tr>
+      <tr>
+         <td headers="year">2004</td>
+         <td headers="title">Howl's Moving Castle</td>
+      </tr>
+      <tr>
+         <td headers="year">2006</td>
+         <td headers="title">Tales from Earthsea</td>
+      </tr>
+      <tr>
+         <td headers="year">2008</td>
+         <td headers="title">Ponyo</td>
+      </tr>
+      <tr>
+         <td headers="year">2010</td>
+         <td headers="title">The Secret World of Arrietty</td>
+      </tr>
+      <tr>
+         <td headers="year">2011</td>
+         <td headers="title">From Up on Poppy Hill</td>
+      </tr>
+      <tr>
+         <td headers="year">2013</td>
+         <td headers="title">The Wind Rises</td>
+      </tr>
+      <tr>
+         <td headers="year">2013</td>
+         <td headers="title">The Tale of the Princess Kaguya</td>
+      </tr>
+      <tr>
+         <td headers="year">2014</td>
+         <td headers="title">When Marnie Was There</td>
+      </tr>
+   </table>
+   <br><br>
+   <footer>Copyright &copy; 2019 <a href="mailto:amerriman12@ivytech.edu">Ariel Merriman</a></footer>
+<script src="modernizr.custom.05819.js"></script>
+<script src="ghibli.js"></script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Studio Ghibli - Days</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="ghibli.css">
+<link rel="icon" href="favicon.ico" type="image/ico">
+</head>
+<body onload="resetDays()">
+   <header>
+      <h1><img src="totoro5.png" alt="Totoro with umbrella">Studio Ghibli</h1>
+   </header>
+   <nav>
+      <ul>
+         <li><a href="index.html">Home</a></li>
+         <li><a href="films.html">Films</a></li>
+         <li><a href="safety.html">Web Safety</a></li>
+         <li><a href="days.html">Days</a></li>
+      </ul>
+   </nav>
+   <h2>Days</h2>
+   <div id="days">
+   <p>Here you can enter a date and see how much time has elapsed since then!</p>
+   <input type="date" id="date" onchange="timeElapsed()">
+   <p id="elapsed"></p>
+   </div>
+   <br><br><br>
+   <footer>Copyright &copy; 2019 <a href="mailto:amerriman12@ivytech.edu">Ariel Merriman</a></footer>
+<script src="modernizr.custom.05819.js"></script>
+<script src="ghibli.js"></script>
+</body>
+</html>
